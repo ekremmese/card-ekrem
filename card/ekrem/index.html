@@ -1,1 +1,31 @@
 <!-- language router will go here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<script>
+  const lang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+
+  if (lang.startsWith('ar')) {
+    window.location.href = 'ar.html';
+  } else if (lang.startsWith('tr')) {
+    window.location.href = 'tr.html';
+  } else {
+    window.location.href = 'en.html';
+  }
+</script>
+
+<noscript>
+  <p>Please choose your language:</p>
+  <a href="en.html">English</a> |
+  <a href="tr.html">Türkçe</a> |
+  <a href="ar.html">العربية</a>
+</noscript>
+
+</body>
+</html>
