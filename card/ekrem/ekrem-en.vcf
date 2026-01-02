@@ -1,1 +1,10 @@
-PLACEHOLDER
+BEGIN:VCARD
+VERSION:3.0
+N:Meşe;Ekrem;;;
+FN:Ekrem Meşe
+TITLE:Co-Founder / Civil Engineer
+ORG:Ulke Construction
+TEL;TYPE=CELL:+905324017624
+EMAIL:ekrem.mese@ulkeconstruction.com
+URL:https://www.ulkeconstruction.com
+END:VCARD
